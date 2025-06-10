@@ -21,7 +21,7 @@
         <li><a href="#About-Html">About Html</a></li>
         <li><a href="#Html-Tags">Html Tags</a></li>
         <li><a href="#Html-Lists">Html Lists</a></li>
-        <li><a href="#">Sign-Up</a></li>
+        <li><a href="#Html-Table">Html Table</a></li>
       </ul>
     </nav>
     <hr>
@@ -366,13 +366,107 @@
 
       <h4>Definition List</h4>
       <dl>
-        <dt>definition list</dt>
+        <dt>Definition list</dt>
         <dd>Definition list is simply used to define or explain about certain topic in detail. Lorem ipsum dolor, sit
           amet consectetur adipisicing elit. Aliquid, eius incidunt fugit nostrum officia consectetur quod reiciendis
           consequatur dignissimos. Illo, molestiae. Libero, mollitia asperiores. Assumenda nesciunt voluptas accusantium
           repellendus temporibus perspiciatis dignissimos?
         </dd>
       </dl>
+    </section>
+
+    <hr>
+
+    <section class="Tables" id="Html-Table">
+      <h3>Tables in HTML</h3>
+      <p>Table tag is used to group the data in a table format. It has few inner tags such as caption to hold caption,
+        rowspan to merge rows, and colspan to merge columns. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Ratione, quam provident accusamus voluptas dolorum vero commodi, expedita inventore omnis rerum incidunt
+        exercitationem saepe. Iure deserunt perspiciatis, facere a libero, suscipit cupiditate blanditiis nihil non, sed
+        totam magnam atque architecto accusamus doloremque similique commodi cum. Quia omnis ut placeat ipsa officia ab,
+        voluptates unde, deserunt, velit minima ipsam inventore minus! Sapiente nisi, veniam alias reprehenderit quidem
+        id aperiam laudantium nesciunt sit pariatur explicabo tenetur consectetur soluta natus rerum non ipsa accusamus?
+      </p>
+      <table border="1">
+        <thead>
+          <caption>Table Demo</caption>
+          <caption>This Table Demo Contain All The Necessary Tags</caption>
+          <tr>
+            <th>S.N. </th>
+            <th>First - Name </th>
+            <th>Middle - Name </th>
+            <th>Last - Name </th>
+            <th>Age (Y) </th>
+            <th>Salary (PA) </th>
+            <th>Permanent - Address</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>1.</td>
+            <td colspan="2">Anshika</td>
+            <td>Singh</td>
+            <td>20</td>
+            <td>60L</td>
+            <td>Bhopal</td>
+          </tr>
+
+          <tr>
+            <td>2.</td>
+            <td>Kundan</td>
+            <td>Kumar</td>
+            <td>Jaiswal</td>
+            <td>20</td>
+            <td>50L</td>
+            <td rowspan="3">Bihar</td>
+          </tr>
+
+          <tr>
+            <td>3.</td>
+            <td colspan="2">Anku</td>
+            <td>Yadav</td>
+            <td>23</td>
+            <td>50L</td>
+          </tr>
+
+          <tr>
+            <td>4.</td>
+            <td colspan="2">Abjeet</td>
+            <td>Choubey</td>
+            <td>12</td>
+            <td>55L</td>
+          </tr>
+
+          <tr>
+            <td>5.</td>
+            <td>Ramu</td>
+            <td>Parsad</td>
+            <td>Lala</td>
+            <td>36</td>
+            <td>80L</td>
+            <td>Pune</td>
+          </tr>
+
+          <tr>
+            <td>6.</td>
+            <td colspan="2">Sita</td>
+            <td>Rama</td>
+            <td>35</td>
+            <td>50L</td>
+            <td>Banglore</td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td colspan="4"><strong>Total:</strong></td>
+            <td>146</td>
+            <td>345L</td>
+          </tr>
+        </tfoot>
+
+      </table>
     </section>
   </main>
 
