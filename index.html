@@ -22,6 +22,7 @@
         <li><a href="#Html-Tags">Html Tags</a></li>
         <li><a href="#Html-Lists">Html Lists</a></li>
         <li><a href="#Html-Table">Html Table</a></li>
+        <li><a href="#Html-Form">Html Form</a></li>
       </ul>
     </nav>
     <hr>
@@ -378,7 +379,7 @@
     <hr>
 
     <section class="Tables" id="Html-Table">
-      <h3>Tables in HTML</h3>
+      <h3>Tables in HTML :</h3>
       <p>Table tag is used to group the data in a table format. It has few inner tags such as caption to hold caption,
         rowspan to merge rows, and colspan to merge columns. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
         Ratione, quam provident accusamus voluptas dolorum vero commodi, expedita inventore omnis rerum incidunt
@@ -467,6 +468,97 @@
         </tfoot>
 
       </table>
+    </section>
+
+    <br><hr>
+
+    <section class="Form" id="Html-Form">
+      <h3>Form in HTML :</h3>
+      <p>Form is used in html to collect the data form the user and perform the necessary tasks accordingly. Lorem ipsum
+        dolor sit, amet consectetur adipisicing elit. Excepturi optio voluptates dolor laborum dignissimos id recusandae
+        ducimus numquam neque quia quae in saepe adipisci sequi quos atque modi eos, ipsum unde repudiandae corrupti
+        ipsam. Ratione, non placeat quis earum optio deserunt nemo eveniet magnam ad. Ipsa suscipit facilis
+        necessitatibus ipsum fugiat aperiam praesentium, eum nemo assumenda laudantium neque, sint, aut aliquid culpa.
+        Nesciunt quia non vitae maiores debitis ducimus nobis nihil tempore deserunt obcaecati labore sunt, enim, maxime
+        perspiciatis! At? <u>Sample of a form is given below :</u>
+      </p>
+
+      <form action="/action.php">
+
+        <div>
+          <label for="Name">Name:
+            <input type="text" placeholder="Input Type Text" required pattern="[a-zA-Z]+" id="Name">
+          </label>
+        </div>
+
+        <div>
+          <label for="Email">Email:
+            <input type="email" placeholder="Input Type Email"  required id="Email">
+          </label>
+        </div>
+
+
+        <div>
+          <label for="password">Password:
+            <input type="password" placeholder="Input Type Password" id="password">
+          </label>
+        </div>
+
+        <div>
+          <label for="Number">Number:
+            <input type="number" placeholder="Input Type Number" id="Number">
+          </label>
+        </div>
+
+        <div>
+          <label for="Date">Input Type Date:
+            <input type="date" required id="Date">
+          </label>
+        </div>
+
+        <div>
+          <p>Input Type Check-Box :</p>
+          <input type="checkbox">Aiml-A
+          <input type="checkbox">Aiml-B
+          <input type="checkbox">Aiml-C
+        </div>
+
+        <div>
+          <p>Input Type Radio :</p>
+          <label for="k1">
+            <input type="radio" name="gender" value="male" id="k1">Male
+          </label>
+          <label for="k2">
+            <input type="radio" name="gender" value="female" id="k2">Female
+          </label>
+          <label for="k3">
+            <input type="radio" name="gender" value="other" id="k3">Other
+          </label>
+        </div>
+
+        <div>
+          <p>Select Element...</p>
+          <select name="Country" id="k7">
+            <option value="India">India</option>
+            <option value="India">Nepal</option>
+            <option value="India">China</option>
+            <option value="India">Korea</option>
+          </select>
+        </div>
+
+        <div>
+          <textarea name="feedback" id="d5" placeholder="Text-Area Example" rows="5"
+            cols="50"></textarea>
+        </div>
+
+        <div>
+          <p>Input Type Submit :</p>
+          <label for="Submit">
+            <input type="submit" id="Submit">
+          </label>
+        </div>
+
+      </form>
     </section>
   </main>
 
